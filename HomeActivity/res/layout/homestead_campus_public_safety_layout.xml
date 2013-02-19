@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout	 xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0066FF"
+    android:orientation="vertical">
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/public_safety_img" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="HOMESTEAD PUBLIC SAFETY"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+   <Button
+       android:id="@+id/btnEmergency"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="35dp"
+       android:text="305-237-5100" android:textSize="30sp"/>
+
+   <TextView
+       android:id="@+id/btnWebsite"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="35dp"
+       android:text="www.mdc.edu/main/safety/" />
+
+</LinearLayout>
